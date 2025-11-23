@@ -4,16 +4,11 @@ margin:0;
 background:url('https://xatimg.com/image/6BFX2vtRkdbB.png')center/cover;
 overflow:hidden;
 }
-#sky_lanterns img{
-  opacity:1;
-  position: absolute;
-  right: 0;
-  left:0;
-  top:0;
-  bottom: 0;
-  margin:0 auto;
-  height: 100%;
-  pointer-events:none;
+
+#overlay{
+width:100%;
+height:100%;
+background:url('https://xatimg.com/image/xvwj7vyCGNRk.png')center/cover;
 }
 
 @keyframes move-background {
@@ -100,14 +95,52 @@ overflow:hidden;
   -webkit-animation:move-background 20s linear infinite;
   animation:move-background 20s linear infinite;
 }
+hr {
+     width: 50px;
+     border-color: transparent;
+     border-right-color: rgba(255, 255, 255, 0.7);
+     border-right-width: 50px;
+     opacity:0.5;
+     position: absolute;
+     bottom: 100%;
+     transform-origin: 100% 50%;
+     animation-name: rain;
+     animation-duration: 2s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+   }
+
+   @keyframes rain {
+     from {
+       transform: rotate(105deg) translateX(0);
+     } 
+     to {
+       transform: rotate(105deg) translateX(calc(100vh + 20px));
+     }
+   }
 </style>
+
+<div id="overlay">
+</div>
+
+<script type="text/javascript">
+
+  let hrElement;
+  let counter = 50;
+  for (let i = 0; i < counter; i++) {
+    hrElement = document.createElement("HR");
+    
+      hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
+      hrElement.style.animationDuration = 0.5 + Math.random() * 0.3 + "s";
+      hrElement.style.animationDelay = Math.random() * 6 + "s";
+   
+    document.body.appendChild(hrElement);
+  }
+
+</script>
 
 <div class="background-container">
 <div class="twinkling"></div>
 <div class="clouds"></div>
-
-<div id="sky_lanterns">
-<img src="https://xatimg.com/image/5B6f3HC9RxRP.png"/>
-</div>
 
 </video>
