@@ -36,7 +36,7 @@ opacity:0.1;
 @-webkit-keyframes drop {
   90% {
     opacity: 1;
-transform: rotate(105deg);
+transform: rotate(105deg)
   }
   100% {
     opacity: 0;
@@ -54,13 +54,18 @@ transform: rotate(105deg);
 }
 
 @keyframes move-background {
-  from {
+  0% {
     -webkit-transform: translate3d(0px, 0px, 0px);
   }
-  to { 
-    -webkit-transform: translate3d(1000px, 0px, 0px);
+  50% { 
+    -webkit-transform: translate3d(500px, 0px, 0px);
+opacity:0.2;
   }
+100% {
+-webkit-transform: translate3d(1000px, 0px, 0px);
 }
+}
+
 @-webkit-keyframes move-background {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
@@ -76,46 +81,6 @@ transform: rotate(105deg);
   }
   to { 
     -webkit-transform: translate3d(1000px, 0px, 0px);
-  }
-}
-
-    @-webkit-keyframes move-background {
-  from {
-    -webkit-transform: translate3d(0px, 0px, 0px);
-  }
-  to { 
-    -webkit-transform: translate3d(1000px, 0px, 0px);
-  }
-}
-@keyframes move-background2 {
-  from {
-    -webkit-transform: translate3d(0px, -750px, 0px);
-    opacity:1;
-  }
-  to { 
-    -webkit-transform: translate3d(0px, 800px, 0px);
-    opacity:0.6;
-  }
-}
-@-webkit-keyframes move-background2 {
-  from {
-    -webkit-transform: translate3d(0px, -750px, 0px);
-    opacity:1;
-  }
-  to { 
-    -webkit-transform: translate3d(0px, 800px, 0px);
-    opacity:0;
-  }
-}
-
-@-moz-keyframes move-background2 {    
-  from {
-    -webkit-transform: translate3d(0px, -750px, 0px);
-    opacity:1;
-  }
-  to { 
-    -webkit-transform: translate3d(0px, 800px, 0px);
-    opacity:0;
   }
 }
 
