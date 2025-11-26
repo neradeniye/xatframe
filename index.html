@@ -372,7 +372,7 @@ transition: all ease-in-out 0.3s;
 
 #menubar a {
 	border-radius: 4px;
-	box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+	box-shadow: 3px 3px rgba(255, 255, 255, 0.1);
 	width: 69px;
 	height: auto;
 	padding: 3px 7px;
@@ -1271,12 +1271,13 @@ right:0;
 bottom:0;
 margin:auto;
 border-radius:5px;
+border:2px solid rgba(255,255,255,0.2);
 color:#fff;
 font-size:14px;
 width:250px;
 height:316px;
 background: rgba(0, 0, 0, 0.7);
-box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 20%);
 }
 #profilepop::before{
 content:'';
@@ -1292,7 +1293,7 @@ border-radius:5px;
 #profilepop h1{
 position:relative;
 top:-3px;
-font-size:15px;
+font-size:18px;
 font-weight:bold;
 text-align:center;
 }
@@ -1306,30 +1307,24 @@ height:54px;
 }
 #text{
 position:absolute;
-top:26px;
+top:20px;
 text-align:center;
 margin-left:9px;
 margin-right:9px;
 height:54px;
 width:228px;
-}
-#profilepop h2{
-margin-left:10px;
-margin-bottom:9px;
-font-size:12px;
-font-weight:600;
+font-size:13px;
 }
 #game{
 position:absolute;
-top:20px;
+top:0px;
 width:62px;
 height:62px;
-border-radius:5px;
 margin-left:10px;
 }
 #game img{
-width:62px;
-height:62px;
+width:60px;
+height:60px;
 border-radius:5px;
 }
 #gamecontent{
@@ -1339,7 +1334,11 @@ width:162px;
 }
 #gamecontent p{
 margin:0;
-padding-top:4px;
+font-size:12px;
+}
+#gamecontent a{
+text-decoration:none;
+color:#aaa;
 }
 #profcontent{
 position:relative;
@@ -1347,11 +1346,11 @@ top:113px;
 }
 #avi{
 transition: all ease-in-out 0.3s; 
-width:80px;
-height:80px;
+width:100px;
+height:100px;
 position:absolute;
 margin:auto;
-bottom:123px;
+bottom:100px;
 left:0;
 right:0;
 border-radius:100%;
@@ -1364,7 +1363,7 @@ filter: grayscale(100%);
 }
 #gaming{
 position:relative;
-top:12px;
+top:10px;
 }
 #myframe{
 display:none;
@@ -1450,9 +1449,7 @@ function showMusic() {
 <div id="aboutpage">
 
 <div id="sprite">
-<a href="#">
 <img src="https://i.postimg.cc/prjbcDps/lucifer.gif"/>
-</a>
 </div>
 
 <div id="japanese">
@@ -1497,11 +1494,10 @@ document.getElementById("text").append(quote);
 <div id="text"></div>
 <p class="stat"></p>
 <div id="gaming">
-<h2>[UNDER CONSTRUCTION]</h2>
 <div id="game"></div>
 <div id="gamecontent">
-<p><span style="font-weight:600;color:#AAA;">Mike Profile</p></span><p>• Message me if needed</span></p><p>
-• http://xat.com/Mike</p>
+<p><span style="font-weight:600;color:#AAA;">Mike (6666)</p></span><p>• Message me any time!</span></p><p>
+• <a href="https://xat.com/Mike">http://xat.com/Mike</p></a>
 </div>
 </div></div></div>
 
