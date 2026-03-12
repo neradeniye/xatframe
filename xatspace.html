@@ -88,7 +88,7 @@ opacity:0.2;
     bottom: 0;
     z-index: 100;
     pointer-events: none;
-    opacity:0.4;
+    opacity:0.25;
 
    -moz-animation:move-background 20s linear infinite;
   -ms-animation:move-background 20s linear infinite;
@@ -116,11 +116,23 @@ opacity:75%;
 position:absolute;
 bottom:2%;
 right:2%;
-transition: opacity 0.5s ease; 
+transition: opacity 0.2s ease; 
 }
 #lucifer:hover {
 opacity:100%;
-transition: opacity 0.5s ease; 
+transition: opacity 0.2s ease; 
+}
+#japanese img {
+position: absolute;
+opacity: 0.5;
+top: 30px;
+left: 20px;
+transition: opacity 0.2s ease; 
+margin: auto;
+}
+#japanese img:hover {
+opacity: 0.8;
+transition: opacity 0.2s ease; 
 }
 #wrapper {
 width:800px;
@@ -179,11 +191,11 @@ width:120px;
 height:120px;
 border:6px solid #000;
 border-radius:100%;
-transition: filter 0.5s ease; 
+transition: filter 0.2s ease; 
 }
 .thumb:hover {
 filter: grayscale(100%);
-transition: filter 0.5s ease; 
+transition: filter 0.2s ease; 
 }
 #status {
 background:#333;
@@ -248,6 +260,9 @@ padding-right:5px;
 padding-top:2px;
 padding-bottom:2px;
 }
+#roles li:hover {
+border:1px solid rgba(255,255,255,0.85);
+}
 #links {
 float:right;
 margin-right:2%;
@@ -261,10 +276,11 @@ padding-top:5px;
 width:25px;
 height:25px;
 border-radius:100%;
+transition: opacity 0.2s ease; 
 }
 #links img:hover {
-transform: scale(0.85);
-opacity:0.85;
+transition: opacity 0.2s ease; 
+opacity:0.65;
 }
 #links ul {
 display: flex; /* Makes the list items flex items, flowing horizontally */
@@ -310,10 +326,6 @@ text-decoration:none;
 }
 a {
 text-decoration:none;
-color:#eee;
-}
-a:hover {
-text-decoration:underline;
 color:#eee;
 }
 #media_list ul {
@@ -436,7 +448,8 @@ A truly wise person uses few words. <br><br> I thought what I'd do was, I'd pret
 </div>
 <div id="roles">
 <ul class="list">
-<li>&nbsp;<img src="https://xatimg.com/image/hUzix6U3IfoN.png"/>Smiley Maker</li> <li>&nbsp;<img src="https://xatimg.com/image/dThrtkAI6JyI.png"/>Verified</li>
+<a href="https://wiki.xat.com/Smiley_makers" target=:_blank">
+<li>&nbsp;<img src="https://xatimg.com/image/hUzix6U3IfoN.png"/>Smiley Maker</li></a> <a href="https://wiki.xat.com/Special:MyLanguage/Sky_pawn" target="_blank"><li>&nbsp;<img src="https://xatimg.com/image/dThrtkAI6JyI.png"/>Verified</li></a>
 </ul>
 </div>
 <div id="open">
@@ -456,6 +469,10 @@ A truly wise person uses few words. <br><br> I thought what I'd do was, I'd pret
 </div>
 <div id="lucifer">
 <img src="https://i.postimg.cc/prjbcDps/lucifer.gif"/>
+</div>
+
+<div id="japanese">
+<img src="https://i.postimg.cc/KzNrxv0P/light.png"/>
 </div>
 
 <div class="background-container">
