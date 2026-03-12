@@ -1,0 +1,68 @@
+{
+  "anime": [
+    {
+      "href": "https://myanimelist.net/anime/934/Higurashi_no_Naku_Koro_ni",
+      "imgSrc": "https://myanimelist.net/images/anime/12/19634.jpg"
+    },
+    {
+      "href": "https://myanimelist.net/anime/1889/Higurashi_no_Naku_Koro_ni_Kai",
+      "imgSrc": "https://myanimelist.net/images/anime/12/14114.jpg"
+    },
+    {
+      "href": "https://myanimelist.net/anime/3652/Higurashi_no_Naku_Koro_ni_Rei",
+      "imgSrc": "https://myanimelist.net/images/anime/4/14113.jpg"
+    },
+    {
+      "href": "https://myanimelist.net/anime/10491/Higurashi_no_Naku_Koro_ni_Kira",
+      "imgSrc": "https://myanimelist.net/images/anime/6/29774.jpg"
+    },
+    {
+      "href": "https://myanimelist.net/anime/16700/Higurashi_no_Naku_Koro_ni_Kaku__Outbreak",
+      "imgSrc": "https://myanimelist.net/images/anime/12/51063.jpg"
+    }
+  ],
+  "games": [
+    {
+      "href": "https://mygamelist.club/game/63dc7438a401c7c08dc2ce94",
+      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5jae.jpg"
+    },
+    {
+      "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e6b3",
+      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5agh.jpg"
+    },
+    {
+      "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e4b3",
+      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n17.jpg"
+    },
+    {
+      "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e467",
+      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25aw.jpg"
+    },
+    {
+      "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d743",
+      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ap.jpg"
+    }
+  ],
+  "cartoons": [
+    {
+      "href": "https://en.wikipedia.org/wiki/Atomic_Betty",
+      "imgSrc": "https://m.media-amazon.com/images/M/MV5BZTljYWE2MTAtZDg1Yy00MDE1LTllYzEtNGYxN2I0ZGViOTNlXkEyXkFqcGc@._V1_FMjpg_UX739_.jpg"
+    },
+    {
+      "href": "https://en.wikipedia.org/wiki/Johnny_Test",
+      "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTcyYTIwOWMtYTFjNS00NTA1LWE5ODItMmY4MjEwMTYxYjg5XkEyXkFqcGc@._V1_FMjpg_UX960_.jpg"
+    },
+    {
+      "href": "https://en.wikipedia.org/wiki/My_Life_as_a_Teenage_Robot",
+      "imgSrc": "https://m.media-amazon.com/images/M/MV5BOGFiNzc3ZTEtMzA5NS00MzM0LWE1MjYtMjhjY2YxODI2MWZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "href": "https://en.wikipedia.org/wiki/Danny_Phantom",
+      "imgSrc": "https://m.media-amazon.com/images/M/MV5BNjJlNzc4ODktOGVjYS00MTJkLTgzZTYtZGViMDNlNmM2MGE2XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg"
+    },
+    {
+      "href": "https://en.wikipedia.org/wiki/Batman:_The_Animated_Series",
+      "imgSrc": "https://m.media-amazon.com/images/M/MV5BYjgwZWUzMzUtYTFkNi00MzM0LWFkMWUtMDViMjMxNGIxNDUxXkEyXkFqcGc@._V1_FMjpg_UY3000_.jpg"
+    }
+  ]
+}
