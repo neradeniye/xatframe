@@ -1,3 +1,24 @@
+<script>
+
+var link = [];
+
+link[0] = "xatframe/css/aerith.css";
+
+$(function() {
+    var style = link[Math.floor(Math.random() * link.length )];
+    if (document.createStyleSheet){
+        document.createStyleSheet(style);
+    }else{
+        $('<link />',{
+            rel :'stylesheet',
+            type:'text/css',
+            href: style
+        }).appendTo('head');
+    }
+});
+
+</script>
+
 <style>
 
 /*------------------------------------*/
@@ -148,7 +169,7 @@ height: 100vh;
 border-radius:15px;
 width:350px;
 height:400px;
-background: linear-gradient(0deg,rgba(48, 104, 68, 0.75) 10%, rgba(55, 55, 55, 0.75) 85%);
+background:var(--accent-color);
 margin:0 auto;
 cursor:default;
 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
@@ -208,6 +229,9 @@ margin-top:-15%;
 margin-right:5%;
 position:relative;
 z-index:1;
+}
+#status:hover {
+border:1px solid rgba(255,255,255,0.55);
 }
 #status img {
 width:15px;
@@ -276,11 +300,6 @@ padding-top:5px;
 width:25px;
 height:25px;
 border-radius:100%;
-transition: opacity 0.2s ease; 
-}
-#links img:hover {
-transition: opacity 0.2s ease; 
-opacity:0.65;
 }
 #links ul {
 display: flex; /* Makes the list items flex items, flowing horizontally */
