@@ -1,12 +1,12 @@
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <script>
 
 var link = [];
-
-link[0] = "xatframe/css/aerith.css";
+link[0] = "/xatframe/css/aerith.css";
+link[1] = "/xatframe/css/aerith.css";
 
 $(function() {
     var style = link[Math.floor(Math.random() * link.length )];
@@ -184,7 +184,7 @@ border-radius:15px;
 width:350px;
 height:400px;
 margin:0 auto;
-background: linear-gradient(0deg,rgba(48, 104, 68, 0.75) 10%, rgba(55, 55, 55, 0.75) 85%);
+background:var(--accent-color);
 overflow:auto;
 display:none;
 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
