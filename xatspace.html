@@ -354,7 +354,7 @@ document.getElementById("panel_text").textContent = "Close Panel";
 }
   async function loadMediaData() {
     try {
-      const response = await fetch('/json/media-data.json');
+      const response = await fetch('/xatframe/json/media-data.json');
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       const data = await response.json();
