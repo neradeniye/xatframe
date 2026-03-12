@@ -1,6 +1,9 @@
 var link = [];
-link[0] = "/xatframe/css/aerith.css";
+link[0] = "./css/testing.css";
+/*
+link[0] = "/xatframe/css/beato.css";
 link[1] = "/xatframe/css/bern.css";
+*/
 
 $(function() {
     var style = link[Math.floor(Math.random() * link.length )];
