@@ -16,7 +16,17 @@ var categories = {
             "lion_dead.css",
             "lion_will.css",
 			"evil_battler.css",
-			"rosa_maria.css"
+			"rosa_maria.css",
+			"erika.css",
+			"battler_bern.css",
+			"beato_battler3.css",
+			"beato.css",
+			"ange.css",
+			"eva_beato.css",
+			"kyrie.css",
+			"lambda.css",
+			"virgilia.css",
+			"will.css"
         ]
     },
     higurashi: {
