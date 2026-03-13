@@ -54,7 +54,6 @@ var categories = {
             "amusement_park.css",
 			"2b_2.css",
 			"city.css",
-			"city4.css",
 			"city5.css",
         ]
     },
