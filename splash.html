@@ -1,0 +1,164 @@
+<style>
+
+body {
+background:#000;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100; /* Sends the video to the background */
+    transform: translate(-50%, -50%); /* Centers the video */
+    object-fit: cover;
+}
+
+/*--------------------ANIMATION--------------------*/
+
+@-webkit-keyframes example {
+	from {
+		opacity: 0;
+		-webkit-transform: scale(0.35, 0.35);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: scale(0.85, 0.85);
+		opacity: 1;
+	}
+}
+
+@keyframes example {
+	from {
+		opacity: 0;
+		-webkit-transform: scale(0.35, 0.35);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: scale(0.85, 0.85);
+	}
+}
+
+/*--------------------MISC--------------------*/
+
+
+body {
+	overflow: hidden;
+	font-family: 'Karla';
+	margin: 0;
+}
+
+#login-box {
+	transition: all ease-in-out 0.3s;
+	font-family: 'Patrick Hand', cursive;
+	position: absolute;
+	z-index: 2;
+	height: 340px;
+	width: 340px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.4);
+	border: 3px solid rgba(255, 255, 255, 0.4);
+	border-radius: 100%;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-transform: scale(0.35, 0.35);
+	opacity: 0;
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 4s;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	transition: all ease-in-out 0.2s;
+}
+
+#login-box:hover {
+	transition: all ease-in-out 0.2s;
+	border: 3px solid rgba(255, 255, 255, 0.7);
+}
+
+#anti-logo {
+background-image: url('md_logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 180px;
+  height: 180px;
+	transition: all ease-in-out 0.3s;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#login-box:hover #anti-logo {    
+-webkit-transform: scale(0.85,0.85);  
+transition: all ease-in-out 0.3s;    
+}    
+
+</style>
+
+<div id="loader">
+    </div>
+
+<a href="xatspace.html">
+<div id="login-container">
+<div id="login-box">
+<div id="anti-logo"></div>
+</div></div>
+</a>
+
+<script>
+// List all your background videos here
+const videos = [
+  "./xatframe/video/rainy.mp4",
+  "./xatframe/rainy2.mp4",
+  "./xatframe/lillie.mp4",
+  "./xatframe/snowfall.mp4"
+];
+
+function setRandomVideo() {
+  const videoElement = document.getElementById("bg-video");
+  
+  // Pick random video
+  const randomIndex = Math.floor(Math.random() * videos.length);
+  const selectedVideo = videos[randomIndex];
+
+  // Remove any existing <source> children
+  while (videoElement.firstChild) {
+    videoElement.removeChild(videoElement.firstChild);
+  }
+
+  // Create and add new source
+  const source = document.createElement("source");
+  source.src = selectedVideo;
+  source.type = "video/mp4";
+  videoElement.appendChild(source);
+
+  // Important: reload the video so it picks up the new source
+  videoElement.load();
+}
+
+// Run when page loads
+window.addEventListener("load", setRandomVideo);
+</script>
+
+<div class="video-container">
+    <video id="bg-video" autoplay muted loop playsinline poster="posterimage.jpg">
+    </video>
+</div>
