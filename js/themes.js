@@ -28,12 +28,28 @@ var categories = {
 			"rena_mion.css",
 			"rika.css",
 			"rika2.css",
+			"rika3.css",
 			"keiichi_rena.css",
 			"young_rika.css",
 			"young_rika2.css",
-			"hanyuu_rika.css"
+			"hanyuu_rika.css",
+			"hanyuu_rika2.css",
+			"rika_satoko.css",
+			"everyone.css",
+			"hanyuu.css"
         ]
-    }
+    },
+	    nier: {
+        folder: "/xatframe/css/nier/",
+        files: [
+            "amusement_park.css",
+			"2b.css",
+			"2b_2.css",
+			"city.css",
+			"city2.css",
+			"city3.css"
+        ]
+    },
     // Add more categories here as needed, e.g.,
     // anotherCategory: {
     //     folder: "/xatframe/css/anotherCategory/",
