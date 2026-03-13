@@ -1,0 +1,4 @@
+:root {
+--inner-back:url('./backgrounds/umineko/beato_battler2.png') 0 0/cover no-repeat#000;
+--accent-color:linear-gradient(0deg,rgba(101, 46, 33, 0.75) 10%, rgba(55, 55, 55, 0.75) 85%);
+}
