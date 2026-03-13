@@ -16,8 +16,8 @@ var categories = {
             "bern_lambda.css",
             "erika_beato.css",
             "lion_dead.css",
-            "lion_will.css"
-			"evil_battler.css"
+            "lion_will.css",
+			"evil_battler.css",
 			"rosa_maria.css"
         ]
     },
