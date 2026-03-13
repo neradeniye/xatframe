@@ -1,9 +1,7 @@
 var categories = {
     umineko: {
         folder: "/xatframe/css/umineko/",
-		//folder: "./css/umineko/",
         files: [
-			//"testing.css",
             "true_beato.css",
             "bern.css",
             "shannon.css",
@@ -26,9 +24,14 @@ var categories = {
         files: [
             "rena.css",
 			"rena2.css",
+			"rena3.css",
 			"rena_mion.css",
 			"rika.css",
-			"keiichi_rena.css"
+			"rika2.css",
+			"keiichi_rena.css",
+			"young_rika.css",
+			"young_rika2.css",
+			"hanyuu_rika.css"
         ]
     }
     // Add more categories here as needed, e.g.,
