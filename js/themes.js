@@ -26,7 +26,6 @@ var categories = {
 			"rena2.css",
 			"rena3.css",
 			"rena_mion.css",
-			"rika.css",
 			"rika2.css",
 			"rika3.css",
 			"keiichi_rena.css",
@@ -43,11 +42,10 @@ var categories = {
         folder: "/xatframe/css/nier/",
         files: [
             "amusement_park.css",
-			"2b.css",
 			"2b_2.css",
 			"city.css",
-			"city2.css",
-			"city3.css"
+			"city4.css",
+			"city5.css",
         ]
     },
     // Add more categories here as needed, e.g.,
