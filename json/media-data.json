@@ -2,111 +2,111 @@
   "anime": [
     {
       "href": "https://myanimelist.net/anime/934/Higurashi_no_Naku_Koro_ni",
-      "imgSrc": "https://myanimelist.net/images/anime/12/19634.jpg"
+      "imgSrc": "./img/a1.jpg"
     },
     {
       "href": "https://myanimelist.net/anime/1889/Higurashi_no_Naku_Koro_ni_Kai",
-      "imgSrc": "https://myanimelist.net/images/anime/12/14114.jpg"
+      "imgSrc": "./img/a2.jpg"
     },
     {
       "href": "https://myanimelist.net/anime/3652/Higurashi_no_Naku_Koro_ni_Rei",
-      "imgSrc": "https://myanimelist.net/images/anime/4/14113.jpg"
+      "imgSrc": "./img/a3.jpg"
     },
     {
       "href": "https://myanimelist.net/anime/10491/Higurashi_no_Naku_Koro_ni_Kira",
-      "imgSrc": "https://myanimelist.net/images/anime/6/29774.jpg"
+      "imgSrc": "./img/a4.jpg"
     },
     {
       "href": "https://myanimelist.net/anime/16700/Higurashi_no_Naku_Koro_ni_Kaku__Outbreak",
-      "imgSrc": "https://myanimelist.net/images/anime/12/51063.jpg"
+      "imgSrc": "./img/a5.jpg"
     }
   ],
   "games": [
     {
       "href": "https://mygamelist.club/game/63dc7438a401c7c08dc2ce94",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5jae.jpg"
+      "imgSrc": "./img/g1.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e6b3",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5agh.jpg"
+      "imgSrc": "./img/g2.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e4b3",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n17.jpg"
+      "imgSrc": "./img/g3.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e467",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25aw.jpg"
+      "imgSrc": "./img/g4.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d743",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ap.jpg"
+      "imgSrc": "./img/g5.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743ca401c7c08dc30041",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg"
+      "imgSrc": "./img/g6.jpg"
     },	
     {
       "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d874",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lo8.jpg"
+      "imgSrc": "./img/g7.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e709",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co70qn.jpg"
+      "imgSrc": "./img/g8.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e077",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co217m.jpg"
+      "imgSrc": "./img/g9.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d997",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co217n.jpg"
+      "imgSrc": "./img/g10.jpg"
     },	
     {
       "href": "https://mygamelist.club/game/63dc743da401c7c08dc306ec",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21w8.jpg"
+      "imgSrc": "./img/g11.jpg"
     },	
     {
       "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d53d",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kn9.jpg"
+      "imgSrc": "./img/g12.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc7435a401c7c08dc2a6e0",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qyi.jpg"
+      "imgSrc": "./img/g13.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743ba401c7c08dc2fa80",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2er1.jpg"
+      "imgSrc": "./img/g14.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743da401c7c08dc306aa",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99og.jpg"
+      "imgSrc": "./img/g15.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743ca401c7c08dc2fbed",
-      "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31c0.jpg"
+      "imgSrc": "./img/g16.jpg"
     }
   ],
   "cartoons": [
     {
       "href": "https://en.wikipedia.org/wiki/Atomic_Betty",
-      "imgSrc": "https://m.media-amazon.com/images/M/MV5BZTljYWE2MTAtZDg1Yy00MDE1LTllYzEtNGYxN2I0ZGViOTNlXkEyXkFqcGc@._V1_FMjpg_UX739_.jpg"
+      "imgSrc": "./img/c1.jpg"
     },
     {
       "href": "https://en.wikipedia.org/wiki/Johnny_Test",
-      "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTcyYTIwOWMtYTFjNS00NTA1LWE5ODItMmY4MjEwMTYxYjg5XkEyXkFqcGc@._V1_FMjpg_UX960_.jpg"
+      "imgSrc": "./img/c2.jpg"
     },
     {
       "href": "https://en.wikipedia.org/wiki/My_Life_as_a_Teenage_Robot",
-      "imgSrc": "https://m.media-amazon.com/images/M/MV5BOGFiNzc3ZTEtMzA5NS00MzM0LWE1MjYtMjhjY2YxODI2MWZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      "imgSrc": "./img/c3.jpg"
     },
     {
       "href": "https://en.wikipedia.org/wiki/Danny_Phantom",
-      "imgSrc": "https://m.media-amazon.com/images/M/MV5BNjJlNzc4ODktOGVjYS00MTJkLTgzZTYtZGViMDNlNmM2MGE2XkEyXkFqcGc@._V1_FMjpg_UX400_.jpg"
+      "imgSrc": "./img/c4.jpg"
     },
     {
       "href": "https://en.wikipedia.org/wiki/Batman:_The_Animated_Series",
-      "imgSrc": "https://m.media-amazon.com/images/M/MV5BYjgwZWUzMzUtYTFkNi00MzM0LWFkMWUtMDViMjMxNGIxNDUxXkEyXkFqcGc@._V1_FMjpg_UY3000_.jpg"
+      "imgSrc": "./img/c5.jpg"
     }
   ]
 }
