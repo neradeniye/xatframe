@@ -2,111 +2,111 @@
   "anime": [
     {
       "href": "https://myanimelist.net/anime/934/Higurashi_no_Naku_Koro_ni",
-      "imgSrc": "./img/a1.jpg"
+      "imgSrc": "./img/media/a1.jpg"
     },
     {
       "href": "https://myanimelist.net/anime/1889/Higurashi_no_Naku_Koro_ni_Kai",
-      "imgSrc": "./img/a2.jpg"
+      "imgSrc": "./img/media/a2.jpg"
     },
     {
       "href": "https://myanimelist.net/anime/3652/Higurashi_no_Naku_Koro_ni_Rei",
-      "imgSrc": "./img/a3.jpg"
+      "imgSrc": "./img/media/a3.jpg"
     },
     {
       "href": "https://myanimelist.net/anime/10491/Higurashi_no_Naku_Koro_ni_Kira",
-      "imgSrc": "./img/a4.jpg"
+      "imgSrc": "./img/media/a4.jpg"
     },
     {
       "href": "https://myanimelist.net/anime/16700/Higurashi_no_Naku_Koro_ni_Kaku__Outbreak",
-      "imgSrc": "./img/a5.jpg"
+      "imgSrc": "./img/media/a5.jpg"
     }
   ],
   "games": [
     {
       "href": "https://mygamelist.club/game/63dc7438a401c7c08dc2ce94",
-      "imgSrc": "./img/g1.jpg"
+      "imgSrc": "./img/media/g1.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e6b3",
-      "imgSrc": "./img/g2.jpg"
+      "imgSrc": "./img/media/g2.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e4b3",
-      "imgSrc": "./img/g3.jpg"
+      "imgSrc": "./img/media/g3.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e467",
-      "imgSrc": "./img/g4.jpg"
+      "imgSrc": "./img/media/g4.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d743",
-      "imgSrc": "./img/g5.jpg"
+      "imgSrc": "./img/media/g5.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743ca401c7c08dc30041",
-      "imgSrc": "./img/g6.jpg"
+      "imgSrc": "./img/media/g6.jpg"
     },	
     {
       "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d874",
-      "imgSrc": "./img/g7.jpg"
+      "imgSrc": "./img/media/g7.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e709",
-      "imgSrc": "./img/g8.jpg"
+      "imgSrc": "./img/media/g8.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743aa401c7c08dc2e077",
-      "imgSrc": "./img/g9.jpg"
+      "imgSrc": "./img/media/g9.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d997",
-      "imgSrc": "./img/g10.jpg"
+      "imgSrc": "./img/media/g10.jpg"
     },	
     {
       "href": "https://mygamelist.club/game/63dc743da401c7c08dc306ec",
-      "imgSrc": "./img/g11.jpg"
+      "imgSrc": "./img/media/g11.jpg"
     },	
     {
       "href": "https://mygamelist.club/game/63dc7439a401c7c08dc2d53d",
-      "imgSrc": "./img/g12.jpg"
+      "imgSrc": "./img/media/g12.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc7435a401c7c08dc2a6e0",
-      "imgSrc": "./img/g13.jpg"
+      "imgSrc": "./img/media/g13.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743ba401c7c08dc2fa80",
-      "imgSrc": "./img/g14.jpg"
+      "imgSrc": "./img/media/g14.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743da401c7c08dc306aa",
-      "imgSrc": "./img/g15.jpg"
+      "imgSrc": "./img/media/g15.jpg"
     },
     {
       "href": "https://mygamelist.club/game/63dc743ca401c7c08dc2fbed",
-      "imgSrc": "./img/g16.jpg"
+      "imgSrc": "./img/media/g16.jpg"
     }
   ],
   "cartoons": [
     {
       "href": "https://en.wikipedia.org/wiki/Atomic_Betty",
-      "imgSrc": "./img/c1.jpg"
+      "imgSrc": "./img/media/c1.jpg"
     },
     {
       "href": "https://en.wikipedia.org/wiki/Johnny_Test",
-      "imgSrc": "./img/c2.jpg"
+      "imgSrc": "./img/media/c2.jpg"
     },
     {
       "href": "https://en.wikipedia.org/wiki/My_Life_as_a_Teenage_Robot",
-      "imgSrc": "./img/c3.jpg"
+      "imgSrc": "./img/media/c3.jpg"
     },
     {
       "href": "https://en.wikipedia.org/wiki/Danny_Phantom",
-      "imgSrc": "./img/c4.jpg"
+      "imgSrc": "./img/media/c4.jpg"
     },
     {
       "href": "https://en.wikipedia.org/wiki/Batman:_The_Animated_Series",
-      "imgSrc": "./img/c5.jpg"
+      "imgSrc": "./img/media/c5.jpg"
     }
   ]
 }
