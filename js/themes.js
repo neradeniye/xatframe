@@ -69,7 +69,15 @@ var categories = {
 			"satoshi_moon.css",
 			"satsuki_yuka.css",
 			"magari_azusa.css",
-			"yoshie_sachiko.css"
+			"yoshie_sachiko.css",
+			"bath_group.css",
+			"bath_group.css",
+			"kuon.css",
+			"azusa.css",
+			"magari.css",
+			"magari2.css",
+			"ayumi.css",
+			"school.css"
         ]
     },
 };
