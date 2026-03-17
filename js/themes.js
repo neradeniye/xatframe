@@ -57,11 +57,21 @@ var categories = {
 			"city5.css",
         ]
     },
-    // Add more categories here as needed, e.g.,
-    // anotherCategory: {
-    //     folder: "/xatframe/css/anotherCategory/",
-    //     files: [...]
-    // }
+	    corpse_party: {
+        folder: "/xatframe/css/corpse_party/",
+        files: [
+            "ayumi_bath.css",
+			"group.css",
+			"naomi.css",
+			"magari_naho.css",
+			"magari_yoshiki.css",
+			"naomi_yuka.css",
+			"satoshi_moon.css",
+			"satsuki_yuka.css",
+			"magari_azusa.css",
+			"yoshie_sachiko.css"
+        ]
+    },
 };
 
 $(function() {
