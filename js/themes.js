@@ -77,7 +77,19 @@ var categories = {
 			"magari.css",
 			"magari2.css",
 			"ayumi.css",
-			"school.css"
+			"school.css",
+			"group2.css",
+			"sachiko.css",
+			"ghosts.css",
+			"yuki_mayu.css",
+			"kizami.css",
+			"group3.css",
+			"ghosts2.css",
+			"naho_sayaka.css",
+			"naho_sayaka2.css",
+			"group4.css",
+			"sayaka.css",
+			"sayaka2.css"
         ]
     },
 };
