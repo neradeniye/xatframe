@@ -245,6 +245,12 @@ margin-right:5%;
 position:relative;
 z-index:1;
 }
+@keyframes blinker {
+    50% {
+        /* At 50% of the animation cycle, set opacity to 0 (invisible) */
+        opacity: 0.5;
+    }
+}
 #status:hover {
 border:1px solid rgba(255,255,255,0.55);
 }
@@ -258,6 +264,7 @@ margin-top:-2px;
 font-size:10px;
 margin:10px;
 text-align:center;
+ animation: blinker 1.5s linear infinite;
 }
 #username {
 position:relative;
