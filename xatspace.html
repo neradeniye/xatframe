@@ -154,6 +154,10 @@ overflow:hidden;
 scrollbar-width: thin; 
 scrollbar-color: rgba(155, 155, 155, 0.5) transparent; 
 }
+body::-webkit-scrollbar {
+  /* Webkit-specific styling for others */
+  width: 1px;
+}
 #lucifer {
 opacity:75%;
 position:absolute;
@@ -374,12 +378,13 @@ color:#eee;
 display: flex; 
 list-style: none;
 padding: 0;
-gap: 5px;
+gap: 2px;
 margin-left:2%;
 margin-top:3%;
 margin-bottom:3%;
 overflow:auto;
 width:96%;
+flex-wrap:wrap;
 }
 #media_list ul:hover {
 overflow:auto;
@@ -395,73 +400,6 @@ opacity:0.85;
 
 </style>
 
-<script>
-
-function toggleVisibility() {
-    var x = document.getElementById("media");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-document.getElementById("panel_text").textContent = "Open Panel";
-    } else {
-        x.style.display = "block";
-document.getElementById("panel_text").textContent = "Close Panel";
-    }
-}
-  async function loadMediaData() {
-    try {
-      const response = await fetch('/xatframe/json/media-data.json');
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      const data = await response.json();
-
-      // Map of section class → ul id
-      const sections = {
-        anime:    'anime-list',
-        games:    'games-list',
-        cartoons: 'cartoons-list'
-        // Add more here later, e.g. movies: 'movies-list'
-      };
-
-      // Loop through each category that exists in JSON
-      Object.keys(sections).forEach(category => {
-        const ulId = sections[category];
-        const items = data[category] || [];   // empty array if category missing
-
-        const ul = document.getElementById(ulId);
-        if (!ul) {
-          console.warn(`No <ul id="${ulId}"> found for category "${category}"`);
-          return;
-        }
-
-        ul.innerHTML = ''; // clear previous content
-
-        items.forEach(item => {
-          const a = document.createElement('a');
-          a.href = item.href;
-          a.target = '_blank';
-
-          const li = document.createElement('li');
-          const img = document.createElement('img');
-          img.src = item.imgSrc;
-          // Optional: img.alt = "..."; img.loading = "lazy";
-
-          li.appendChild(img);
-          a.appendChild(li);
-          ul.appendChild(a);
-        });
-      });
-
-    } catch (err) {
-      console.error('Failed to load media data:', err);
-      // Optional: show fallback message in UI
-      // document.getElementById('media_list').innerHTML = '<p>Error loading media. Please try again later.</p>';
-    }
-  }
-
-  // Run when page is ready
-  document.addEventListener('DOMContentLoaded', loadMediaData);
-</script>
-
 <div id="wrapper">
 <div id="profile">
 <div id="banner">
@@ -476,7 +414,6 @@ document.getElementById("panel_text").textContent = "Close Panel";
 <div id="links">
 <ul class="list">
 <a href="https://discord.gg/PX5pe28k" target=_"blank"><li><img src="https://xatimg.com/image/r6RGnkSZXrO6.png"/></li></a>
-<a href="https://xat.com/Mike" target=_"blank"><li><img src="https://cdn.discordapp.com/icons/1385716171277340795/15565dc25b77f5148069262924424066.webp"/></li></a>
 </ul>
 </div>
 <br>
@@ -496,17 +433,9 @@ A truly wise person uses few words. <br><br> I thought what I'd do was, I'd pret
 </ul>
 </div>
 <div id="open">
-<a href="#" onclick="toggleVisibility();"><p id="panel_text">Open Panel</p></a>
+<a href="https://music.youtube.com/watch?v=6aShp3H7xiU"><p id="panel_text">Play Music</p></a>
 </div>
 </div>
-<div id="media">
-  <div id="media_list">
-
-    <ul class="anime" id="anime-list"></ul>
-    <ul class="games" id="games-list"></ul>
-    <ul class="cartoons" id="cartoons-list"></ul>
-
-  </div>
 </div>
 <div id="lucifer">
 <img src="./img/ange.gif"/>
